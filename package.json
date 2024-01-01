@@ -1,0 +1,18 @@
+{
+  "name": "portofolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prt": "npx tailwindcss -i ./asets/css/input.css -o ./asets/css/output.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "./Ui/**/*.{html,js}"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.4.0"
+  }
+}
